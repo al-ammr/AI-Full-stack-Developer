@@ -20,119 +20,124 @@ export default function AboutUs() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -20 }}
-      className="bg-[#f8f9fb] text-[#1a1a1a] font-sans rounded-3xl overflow-hidden shadow-xl"
+      className="bg-surface text-on-surface font-sans rounded-3xl overflow-hidden shadow-xl text-center border border-outline-variant/10"
     >
-      <header className="bg-[#6c5ce7] text-white py-10 px-5 text-center">
-        <img 
-          src="https://www.facebook.com/photo.php?fbid=1179343390971434&set=a.410627971176317&type=3&mibextid=rS40aB7S9Ucbxw6v" 
-          alt="TechOptyx Logo" 
-          className="max-w-[120px] mx-auto mb-5 rounded-xl"
-          referrerPolicy="no-referrer"
-        />
-        <h1 className="m-0 text-4xl font-bold">About TechOptyx</h1>
+      <header className="bg-primary-container text-white py-12 px-6 flex flex-col items-center justify-center">
+        <h1 className="m-0 text-4xl md:text-5xl font-bold tracking-tight">About TechOptyx</h1>
       </header>
 
-      <main className="max-w-[900px] mx-auto my-10 px-5">
-        <div style={{ fontFamily: "'Georgia', 'Times New Roman', serif", textAlign: "center", lineHeight: 1.8, color: "#2c2c2c" }}>
+      <main className="max-w-4xl mx-auto my-12 px-6">
+        <div className="flex flex-col items-center" style={{ lineHeight: 1.8 }}>
 
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, letterSpacing: "1px", marginBottom: "20px", fontSize: "1.5rem", textAlign: "center" }}>ABOUT TECHOPTYX</h2>
+          <h2 className="uppercase tracking-[0.2em] font-bold mb-6 text-sm text-on-surface-variant/60" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>The Vision</h2>
           
-          <p className="mb-4">
-            TechOptyx ecosystem, designed to take individuals from foundational digital skills to the creation and monetization of AI-powered products and applications.
-          </p>
+          <div className="bg-primary/5 p-6 sm:p-10 rounded-3xl mb-12 border border-primary/10 w-full max-w-2xl">
+            <h3 className="uppercase tracking-[0.1em] font-bold mb-4 text-primary text-sm sm:text-base" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>OUR MISSION</h3>
+            <p className="font-medium text-lg sm:text-xl leading-relaxed italic text-on-surface">
+              "To empower individuals by transforming passive learning into active creation, providing the structured framework needed to build, deploy, and monetize AI-driven digital products."
+            </p>
+          </div>
+          
+          <div className="space-y-6 text-sm sm:text-base max-w-2xl text-left sm:text-center">
+            <p>
+              TechOptyx is an ecosystem designed to take individuals from foundational digital skills to the creation and monetization of AI-powered products and applications.
+            </p>
 
-          <p className="mb-4">
-            This system provides a structured, phase-based framework that moves users through digital fundamentals, generative AI and applied prompt engineering, no-code and low-code development, AI-assisted workflows, automation, full-stack architecture, SaaS development, and distribution strategies.
-          </p>
+            <p>
+              This system provides a structured, phase-based framework that moves users through digital fundamentals, generative AI and applied prompt engineering, no-code and low-code development, AI-assisted workflows, automation, full-stack architecture, SaaS development, and distribution strategies.
+            </p>
 
-          <p className="mb-4">
-            Each phase is built with one purpose: to produce builders who understand what they learn, apply it through creation, and deploy it as functioning, monetizable systems.
-          </p>
+            <p>
+              Each phase is built with one purpose: to produce builders who understand what they learn, apply it through creation, and deploy it as functioning, monetizable systems.
+            </p>
 
-          <p className="mb-4">
-            The system is not passive learning; it is an operational framework for executing independently and consistently, transforming knowledge into products that generate value.
-          </p>
+            <p>
+              The system is not passive learning; it is an operational framework for executing independently and consistently, transforming knowledge into products that generate value.
+            </p>
+          </div>
 
-          <div className="mt-6 mb-10 flex items-center gap-4 justify-center">
-            <a href="https://www.facebook.com/profile.php?id=100066873520674" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="Facebook">
-              <Facebook className="w-5 h-5" />
+          <div className="mt-10 mb-16 flex items-center gap-6 justify-center">
+            <a href="https://www.facebook.com/profile.php?id=100066873520674" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="Facebook">
+              <Facebook className="w-6 h-6" />
             </a>
-            <a href="https://www.instagram.com/techoptyx?igsh=dnJ0OGdyNDZydWti" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="Instagram">
-              <Instagram className="w-5 h-5" />
+            <a href="https://www.instagram.com/techoptyx?igsh=dnJ0OGdyNDZydWti" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="Instagram">
+              <Instagram className="w-6 h-6" />
             </a>
-            <a href="https://x.com/techoptyx23?t=StVniHVIRwj7-1ItTDZTvg&s=09" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="X (Twitter)">
-              <XIcon className="w-5 h-5" />
+            <a href="https://x.com/techoptyx23?t=StVniHVIRwj7-1ItTDZTvg&s=09" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="X (Twitter)">
+              <XIcon className="w-6 h-6" />
             </a>
-            <a href="https://www.tiktok.com/@techoptyx?_r=1&_t=ZS-95K3DoO63we" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="TikTok">
-              <TikTokIcon className="w-5 h-5" />
+            <a href="https://www.tiktok.com/@techoptyx?_r=1&_t=ZS-95K3DoO63we" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="TikTok">
+              <TikTokIcon className="w-6 h-6" />
             </a>
-            <a href="https://youtube.com/@techoptyx?si=quSfRrljyj79wRJd" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="YouTube">
-              <Youtube className="w-5 h-5" />
+            <a href="https://youtube.com/@techoptyx?si=quSfRrljyj79wRJd" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="YouTube">
+              <Youtube className="w-6 h-6" />
             </a>
           </div>
 
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, letterSpacing: "1px", marginTop: "40px", marginBottom: "20px", fontSize: "1.5rem", textAlign: "center" }}>ABOUT THE SYSTEM</h2>
+          <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent mb-16" />
 
-          <p className="mb-4">
-            TechOptyx is an AI-driven builder ecosystem designed to equip individuals with the ability to build, deploy, and monetize digital products.
-          </p>
+          <h2 className="uppercase tracking-[0.2em] font-bold mb-8 text-xl sm:text-2xl text-on-surface" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>ABOUT THE SYSTEM</h2>
 
-          <p className="mb-4">
-            In a world where technology is no longer a tool but the environment itself, most people consume information endlessly without converting knowledge into tangible outcomes.
-          </p>
+          <div className="space-y-6 text-sm sm:text-base max-w-2xl mb-16 text-left sm:text-center">
+            <p>
+              TechOptyx is an AI-driven builder ecosystem designed to equip individuals with the ability to build, deploy, and monetize digital products.
+            </p>
 
-          <p className="mb-4">
-            TechOptyx exists to close this gap. It is not a content platform, a motivation brand, or a trend-chasing tech site. Instead, it is a structured execution system that guides users from understanding digital fundamentals to creating scalable, functional systems that produce real-world results.
-          </p>
+            <p>
+              In a world where technology is no longer a tool but the environment itself, most people consume information endlessly without converting knowledge into tangible outcomes.
+            </p>
 
-          <p className="mb-4">
-            By combining education, application, monetization, and ethical responsibility, TechOptyx ensures that knowledge is transformed into actionable output rather than passive consumption.
-          </p>
+            <p>
+              TechOptyx exists to close this gap. It is not a content platform, a motivation brand, or a trend-chasing tech site. Instead, it is a structured execution system that guides users from understanding digital fundamentals to creating scalable, functional systems that produce real-world results.
+            </p>
 
-          <h2 style={{ fontFamily: "'Playfair Display', serif", fontWeight: 700, letterSpacing: "1px", marginTop: "40px", marginBottom: "20px", fontSize: "1.5rem", textAlign: "center" }}>ABOUT THE FOUNDER</h2>
+            <p>
+              By combining education, application, monetization, and ethical responsibility, TechOptyx ensures that knowledge is transformed into actionable output rather than passive consumption.
+            </p>
+          </div>
 
-          <div className="flex flex-col items-center text-center mt-6 gap-6">
-            <img 
-              src="https://www.facebook.com/photo.php?fbid=1653392159233015&set=a.247904833115095&type=3&mibextid=rS40aB7S9Ucbxw6v" 
-              alt="Amr Suleiman" 
-              className="max-w-[150px] sm:max-w-[200px] rounded-xl shrink-0"
-              referrerPolicy="no-referrer"
-            />
-            <div>
-              <p className="mb-4">
-                Amr Suleiman is the founder of TechOptyx and the architect behind its systems. His experience spans digital technology, structured learning, and applied problem-solving, with hands-on expertise in development environments, automation, and practical technology integration.
-              </p>
+          <div className="w-full h-px bg-gradient-to-r from-transparent via-primary/20 to-transparent mb-16" />
 
-              <p className="mb-4">
-                Amr does not operate as a traditional educator. His focus is on designing systems that reduce friction between learning and execution, enabling individuals to move from consuming knowledge to building, validating, and scaling functional products.
-              </p>
+          <h2 className="uppercase tracking-[0.2em] font-bold mb-10 text-xl sm:text-2xl text-on-surface" style={{ fontFamily: "'Space Grotesk', sans-serif" }}>THE FOUNDER</h2>
 
-              <p className="mb-4">
-                His philosophy is simple but rigorous: <em style={{ fontStyle: "italic" }}>"Build quickly, validate in the real world, and scale through systems rather than effort."</em>
-              </p>
+          <div className="flex flex-col items-center gap-8 max-w-3xl w-full px-4 sm:px-6 mx-auto">
+            <div className="w-full max-w-2xl mx-auto px-4 sm:px-8 py-6 bg-surface-container/40 rounded-3xl shadow-sm border border-primary/10">
+              <div className="space-y-6 text-sm sm:text-base text-left sm:text-center break-words text-on-surface-variant">
+                <p>
+                  Amr Suleiman is the founder of TechOptyx and the architect behind its systems. His experience spans digital technology, structured learning, and applied problem-solving, with hands-on expertise in development environments, automation, and practical technology integration.
+                </p>
 
-              <p className="mb-4">
-                TechOptyx embodies this approach, serving as a direct extension of Amr’s vision for creating capable, independent builders in a technology-driven world.
-              </p>
+                <p>
+                  Amr does not operate as a traditional educator. His focus is on designing systems that reduce friction between learning and execution, enabling individuals to move from consuming knowledge to building, validating, and scaling functional products.
+                </p>
 
-              <div className="mt-6 flex items-center gap-4 justify-center">
-                <a href="https://www.facebook.com/al.ammr.tech" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="Facebook">
-                  <Facebook className="w-5 h-5" />
+                <p className="font-bold text-base sm:text-lg text-primary italic py-4">
+                  "Build quickly, validate in the real world, and scale through systems rather than effort."
+                </p>
+
+                <p>
+                  TechOptyx embodies this approach, serving as a direct extension of Amr’s vision for creating capable, independent builders in a technology-driven world.
+                </p>
+
+                <div className="mt-8 flex items-center gap-4 sm:gap-6 justify-center flex-wrap">
+                <a href="https://www.facebook.com/al.ammr.tech" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="Facebook">
+                  <Facebook className="w-6 h-6" />
                 </a>
-                <a href="https://www.instagram.com/al.ammr.tech?igsh=anJhaHRidmpiNHV3" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="Instagram">
-                  <Instagram className="w-5 h-5" />
+                <a href="https://www.instagram.com/al.ammr.tech?igsh=anJhaHRidmpiNHV3" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="Instagram">
+                  <Instagram className="w-6 h-6" />
                 </a>
-                <a href="https://www.linkedin.com/in/al-ammr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="LinkedIn">
-                  <Linkedin className="w-5 h-5" />
+                <a href="https://www.linkedin.com/in/al-ammr?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="LinkedIn">
+                  <Linkedin className="w-6 h-6" />
                 </a>
-                <a href="https://www.tiktok.com/@al.ammr.tech?_r=1&_t=ZS-95K32EpYxRx" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="TikTok">
-                  <TikTokIcon className="w-5 h-5" />
+                <a href="https://www.tiktok.com/@al.ammr.tech?_r=1&_t=ZS-95K32EpYxRx" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="TikTok">
+                  <TikTokIcon className="w-6 h-6" />
                 </a>
-                <a href="https://x.com/Ammr_Suleiman?t=TX3PBhKjkGYf7lZC0sCU_w&s=09" target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-[#6c5ce7]/10 text-[#6c5ce7] hover:bg-[#6c5ce7] hover:text-white transition-colors" aria-label="X (Twitter)">
-                  <XIcon className="w-5 h-5" />
+                <a href="https://x.com/Ammr_Suleiman?t=TX3PBhKjkGYf7lZC0sCU_w&s=09" target="_blank" rel="noopener noreferrer" className="p-3 rounded-full bg-primary/10 text-primary hover:bg-primary hover:text-white transition-all hover:scale-110" aria-label="X (Twitter)">
+                  <XIcon className="w-6 h-6" />
                 </a>
               </div>
             </div>
+          </div>
           </div>
 
         </div>
