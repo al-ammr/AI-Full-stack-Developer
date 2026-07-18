@@ -1,20 +1,83 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+DayZero by TechOptyx — AI Full-Stack Developer Path
 
-# Run and deploy your AI Studio app
+Status note: This repository is the original MVP powering the AI Full-Stack Developer track. It is live and fully functional, but is being succeeded by DayZero V1 — a rebuilt, three-track platform (Full-Stack Development, AI Video & Filmmaking, AI Marketing) — in active development in a separate repository. This repo will continue running unchanged at its current URL until V1 is launch-ready, at which point it will redirect here. See Known Limitations below before building on top of this codebase.
 
-This contains everything you need to run your app locally.
+Live app: ai-full-stack-developer-eta.vercel.app
 
-View your app in AI Studio: https://ai.studio/apps/4bd00e35-d25d-4d71-b6ef-748f2d7c6193
+What This Is
 
-## Run Locally
+An AI-guided, phase-based learning path that takes a learner from zero to a deployed, sellable AI-powered product — full-stack development, taught with an explicit focus on turning each phase's skill into income, not just knowledge.
 
-**Prerequisites:**  Node.js
+Each of the 10 phases follows the same structure:
+Tasks — a checkable list of what to accomplish in the phase
 
+Learning Videos — curated tutorials for the phase's topic
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+Tool Tasks — hands-on tasks covering the specific tools introduced
+
+Follow-Along Project — a guided build, video-led
+Monetization — market value estimate, a cold-pitch script, and where to actually find clients for this specific skill
+
+Resources — external links (docs, certifications, further reading)
+
+Beyond the core curriculum, the app also includes:
+A Dashboard — overall progress, tasks completed, active phase, and a learning-velocity chart
+A Prompt Library — curated, filterable AI prompts (coding, debugging, business/outreach)
+
+A Certifications page — links to free external certifications (Google, Harvard, Claude, etc.) with a completion toggle
+
+Light/dark mode
+
+Tech Stack
+Build tool: Vite 6
+Framework: React 19 + TypeScript
+Styling: Tailwind CSS 4
+AI: Google Gemini (@google/genai)
+UI/animation: motion, react-confetti, lucide-react
+Charts: recharts
+Markdown rendering: react-markdown
+This project was originally scaffolded from google-gemini/aistudio-repository-template.
+
+Getting Started
+
+Prerequisites: Node.js
+Install dependencies:
+Bash
+Set your Gemini API key in .env.local:
+Code
+Run the dev server:
+Bash
+The app runs on http://localhost:3000.
+Available Scripts
+Command
+Description
+npm run dev
+Start the local dev server (port 3000)
+npm run build
+Production build
+npm run preview
+Preview the production build locally
+npm run clean
+Remove the dist/ output directory
+npm run lint
+Type-check the project (tsc --noEmit)
+
+Project Structure
+
+Code
+Curriculum content is authored via the generate_phases_*.cjs scripts and assembled by combine_phases.cjs into the JSON files the app consumes directly — there is no database; all curriculum data is static and bundled at build time.
+
+Known Limitations
+
+This app is a client-only single-page application with no backend, no authentication, and no database — all state (progress, task completion) is local to the browser and does not persist across devices. Worth knowing before extending this codebase:
+
+The Gemini API key is used client-side. As shipped, GEMINI_API_KEY is accessible in the browser bundle. If you fork or extend this project for anything beyond local/personal use, move any AI calls to a server-side route before deploying publicly.
+
+No user accounts. Progress and completion state reset if browser storage is cleared and do not sync across devices.
+
+Single curriculum track. This repository covers the Full-Stack Development path only.
+These are the specific gaps DayZero V1 addresses with a real backend, authentication, and three parallel tracks.
+
+About
+Built by Amr Suleiman under TechOptyx.
+Tagline: Earn while you learn. From Day Zero.
