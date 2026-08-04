@@ -911,6 +911,37 @@ export const PHASES: Phase[] = [
         "url": "https://youtu.be/Tk-EI2yYT3A?si=0S0thY1E_kY7V-rh",
         "type": "yt"
       }
+    ,
+      {
+        "title": "CLI Mastery: Command Prompt & PowerShell",
+        "url": "https://www.youtube.com/watch?v=ueKFupiT2wA",
+        "type": "yt"
+      },
+      {
+        "title": "Modern SDLC & Agile AI Development",
+        "url": "https://www.youtube.com/watch?v=P1mbqnACR0M",
+        "type": "yt"
+      },
+      {
+        "title": "Technical Writing for Developers",
+        "url": "https://www.youtube.com/watch?v=vT5pcc30Ffw",
+        "type": "yt"
+      },
+      {
+        "title": "System Documentation & Technical Specs Engineering",
+        "url": "https://www.youtube.com/watch?v=nypgQn7sMY8",
+        "type": "yt"
+      },
+      {
+        "title": "AI-Enhanced Market & Product Research",
+        "url": "https://www.youtube.com/watch?v=wGuRuuPuYNQ",
+        "type": "yt"
+      },
+      {
+        "title": "Neural Architectures & AI Brain Design",
+        "url": "https://www.youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ",
+        "type": "yt"
+      }
     ],
     "freeResources": [
       {
@@ -1130,8 +1161,8 @@ export const PHASES: Phase[] = [
     "color": "text-amber-400",
     "resources": [
       {
-        "title": "Webflow Full Course",
-        "url": "https://youtube.com/playlist?list=PLXC_gcsKLD6nseaESleQemeJn6SG0-Xbn&si=m3ah491WldZVEr5s",
+        "title": "Webflow Video",
+        "url": "https://youtu.be/RXdH2H01P88?si=EJYQ7bJsj35xUsTb",
         "type": "yt"
       },
       {
@@ -1155,8 +1186,8 @@ export const PHASES: Phase[] = [
         "type": "yt"
       },
       {
-        "title": "Webflow Full Course - Beginner to Advanced",
-        "url": "https://www.youtube.com/playlist?list=PLPmnoMVpkxfjLSp4HaI0RMp3jhs5-STFF",
+        "title": "Webflow Full Course",
+        "url": "https://youtu.be/1EvoteyU6PA?si=Bvl7qgWI6jM0BFLO",
         "type": "yt"
       }
     ],
@@ -1274,13 +1305,13 @@ export const PHASES: Phase[] = [
         "type": "yt"
       },
       {
-        "title": "Google Firebase Studio",
-        "url": "https://youtu.be/Rd6F5wHIysM?si=J8wzrurtIOakI48w",
+        "title": "Google AI Studio",
+        "url": "https://youtu.be/PsE9u37gJjU?si=Od6EiJTrlICD4Y_m",
         "type": "yt"
       },
       {
-        "title": "Google Gems",
-        "url": "https://youtu.be/UYGOEdlyN3Y?si=77uGe__0Tim0aaaK",
+        "title": "Google Code Wiki",
+        "url": "https://youtu.be/osb_mt3ne70?si=I61buw0pQdoVndWd",
         "type": "yt"
       },
       {
@@ -1306,6 +1337,22 @@ export const PHASES: Phase[] = [
       {
         "title": "Claude Code Free Set-Up",
         "url": "https://youtu.be/GRUjApPqCoE?si=ckUA7rFUDXRMlPQL",
+        "type": "yt"
+      }
+    ,
+      {
+        "title": "Google Antigravity: Advanced AI Workflows",
+        "url": "https://www.youtube.com/watch?v=BeRnLV8EZJs",
+        "type": "yt"
+      },
+      {
+        "title": "OPENCODE FULLCOURSE",
+        "url": "https://youtu.be/uZGDO0L-Dr4?si=ab2ZammaQWdAiX8A",
+        "type": "yt"
+      },
+      {
+        "title": "KIMICODE FULL COURSE",
+        "url": "https://youtu.be/iyXDidb8IG8?si=ECCHhOnjO1p2rNe-",
         "type": "yt"
       }
     ],
@@ -1562,6 +1609,17 @@ export const PHASES: Phase[] = [
         "url": "https://www.youtube.com/live/T3A42YYP29I?si=-c35Mw2D3znw6WLZ",
         "type": "yt"
       }
+    ,
+      {
+        "title": "Automated Data Extraction & Web Scraping",
+        "url": "https://www.youtube.com/watch?v=RKsLLG-bzEY",
+        "type": "yt"
+      },
+      {
+        "title": "Shell Scripting & Regular Expressions",
+        "url": "https://www.youtube.com/watch?v=mSQM8Xo78Wc",
+        "type": "yt"
+      }
     ],
     "freeResources": [
       {
@@ -1673,8 +1731,8 @@ export const PHASES: Phase[] = [
         "type": "yt"
       },
       {
-        "title": "Multi-agent collaboration",
-        "url": "https://youtu.be/mKqtjV1ZEJ8?si=sUAiDVukMN7dqVXR",
+        "title": "Multi-Agent Collaboration",
+        "url": "https://youtu.be/X3XJeTApVMM?si=n63Awybgx9ni13fj",
         "type": "yt"
       },
       {
@@ -1700,6 +1758,22 @@ export const PHASES: Phase[] = [
       {
         "title": "AI-assisted decision-making systems",
         "url": "https://youtu.be/8lo1s29ODj8?si=_N8ZhOdMR6z3I17r",
+        "type": "yt"
+      }
+    ,
+      {
+        "title": "MCP & Tool Integration",
+        "url": "https://www.youtube.com/watch?v=5xqFjh56AwM",
+        "type": "yt"
+      },
+      {
+        "title": "Simulating Autonomous Agentic Workflows",
+        "url": "https://www.youtube.com/watch?v=uXVLyJJLEKA",
+        "type": "yt"
+      },
+      {
+        "title": "Engineering Agentic Pipelines",
+        "url": "https://www.youtube.com/watch?v=eooxQPZQUEM",
         "type": "yt"
       }
     ],
@@ -2341,6 +2415,17 @@ export const PHASES: Phase[] = [
         "url": "https://youtu.be/_L8j-ZC83y4?si=mWk5qgwwjlvOZ8qz",
         "type": "yt"
       }
+    ,
+      {
+        "title": "Relational Databases & SQL Scripting",
+        "url": "https://www.youtube.com/watch?v=SpfIwlAYaKk",
+        "type": "yt"
+      },
+      {
+        "title": "Architecting AI-Integrated Backends",
+        "url": "https://www.youtube.com/watch?v=F5ZsLbBqWLU",
+        "type": "yt"
+      }
     ],
     "freeResources": [
       {
@@ -2525,6 +2610,12 @@ export const PHASES: Phase[] = [
       {
         "title": "Launch Strategy",
         "url": "https://youtu.be/Ki3qBvIRo6A?si=YV6d4N0u1vK9xy3R",
+        "type": "yt"
+      }
+    ,
+      {
+        "title": "Monetization & Payment Gateway Integration",
+        "url": "https://www.youtube.com/watch?v=_YCC9Osq6y4",
         "type": "yt"
       }
     ],
@@ -2901,6 +2992,12 @@ export const PHASES: Phase[] = [
       {
         "title": "Launch & Scale",
         "url": "https://youtu.be/r-98YRAF1dY?si=oTNttEuhi6r4tUNI",
+        "type": "yt"
+      }
+    ,
+      {
+        "title": "Cross-Platform AI Mobile Development",
+        "url": "https://www.youtube.com/watch?v=VPvVD8t02U8",
         "type": "yt"
       }
     ],

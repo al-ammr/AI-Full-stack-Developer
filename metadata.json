@@ -1,5 +1,6 @@
 {
-  "name": "AI Full Stack Builder Path",
+  "name": "DayZero, Earn as you Learn",
   "description": "A premium, interactive, result-driven roadmap for mastering full-stack AI development and monetization.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }
